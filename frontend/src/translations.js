@@ -75,7 +75,7 @@ const translations = {
       portfolio_text23: "Y si quieres ver el código fuente, puedes hacer clic ",
       portfolio_text24: "aquí",
       portfolio_caption3: "Empresa de paquetería Fake",
-      portfolio_text31: "Si tienes que enviar una encomienda y conoces sus medidas y su valor declarado, ingresas todos esos datos en la página y...Voilá!!! El sitio te dirá cuánto tienes que pagar de envío. Puedes incluso pagar con Mercado Pago. Eso sí, como el sitio es de prueba...No introduzcas tus datos verdaderos a la hora de pagar!!!",
+      portfolio_text31: "Si tienes que enviar una encomienda y conoces sus medidas y su valor declarado, ingresa todos esos datos en la página y...Voilá!!! El sitio te dirá cuánto tienes que pagar de envío. Puedes incluso pagar con Mercado Pago. Eso sí, como el sitio es de prueba...No introduzcas tus datos verdaderos a la hora de pagar!!!",
       portfolio_text32: "Por cierto, el sitio se construyó con estas tecnologías:",
       portfolio_text33: "Y si quieres ver el código fuente, puedes hacer clic ",
       portfolio_text34: "aquí",

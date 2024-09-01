@@ -1,6 +1,6 @@
 import React,{useContext} from "react";
 import translations from "./translations";
-import { LanguageContext } from "./languageContent";
+import { LanguageContext } from "./languageContext";
 import FadeInSection from "./components/fadeInSection";
 
 export function Portfolio(){
@@ -55,7 +55,7 @@ export function Portfolio(){
                                         <li className={classLabelFeatures}><h3>NODEMAILER</h3></li>
                                     </ul>
                                 </div>
-                                <div className={classLowerText}><p>{t('portfolio_text13')} <a href='/#' className='text-violet-700' target='_blank' rel='noreferrer' >{t('portfolio_text14')}</a></p></div>
+                                <div className={classLowerText}><p>{t('portfolio_text13')} <a href='https://github.com/santiagonotero/my_own_webpage' className='text-violet-700' target='_blank' rel='noreferrer' >{t('portfolio_text14')}</a></p></div>
                             </div>
                         </div>
                     </FadeInSection>

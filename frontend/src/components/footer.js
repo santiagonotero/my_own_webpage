@@ -1,6 +1,6 @@
 import React, {useContext} from "react";
 import translations from "../translations";
-import { LanguageContext } from "../languageContent";
+import { LanguageContext } from "../languageContext";
 import '..//tailwind.css';
 
 const Footer=()=>{
@@ -25,6 +25,8 @@ const Footer=()=>{
                 <ul className='flex justify-start'>
                     <li className='px-2'><a href='https://www.linkedin.com/in/santiago-nicol%C3%A1s-otero-78328222b/' target='_blank' rel='noreferrer'><img src='./linkedin.png' alt='Linkedin'></img></a></li>
                     <li className='px-2'><a href='https://github.com/santiagonotero' target='_blank' rel='noreferrer'><img src='./github.png' alt='Github'></img></a></li>
+                    <li className='px-2'><a href='https://www.instagram.com/sn_codedev' target='_blank' rel='noreferrer'><img src='./instagram.png' alt='Tiktok'></img></a></li>
+                    <li className='px-2'><a href='https://www.tiktok.com/@sn_codedev' target='_blank' rel='noreferrer'><img src='./tiktok.png' alt='Tiktok'></img></a></li>
                 </ul>
             </div>
             <div className='col col-span-2 justify-self-end sm:col-span-1 xsm:col-span-1' > 

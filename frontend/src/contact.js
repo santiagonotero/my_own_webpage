@@ -1,6 +1,6 @@
 import React, {useState, useContext} from 'react';
 import translations from './translations';
-import { LanguageContext } from './languageContent';
+import { LanguageContext } from './languageContext';
 import FadeInSection from './components/fadeInSection';
 
 export function Contact(){

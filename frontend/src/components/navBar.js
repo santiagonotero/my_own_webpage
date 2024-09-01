@@ -1,6 +1,6 @@
 import React, {useState, useContext} from 'react';
 import translations from '../translations';
-import {LanguageContext} from '../languageContent';
+import {LanguageContext} from '../languageContext';
 import {Transition} from '@headlessui/react';
 import '..//styles.css';
 
@@ -51,7 +51,7 @@ const NavBar=()=>{
         </div>
         <div className='flex items-center border-l pl-3 border-[#666666] md:col-span-5 sm:col-span-4 sm:justify-end xsm:col-span-3 xsm:justify-end'>
 
-            <div className="grid grid-cols-3 grid-flow-col" onClick={toggleLangSel}>
+            <div className="grid grid-cols-3 grid-flow-col cursor-pointer" onClick={toggleLangSel}>
                 <div className="grid col-span-1 self-center "><img src={`../../Images/flag_${language}.png`} alt="flag"/></div>
                 <div className="grid col-span-2 px-2">- {language}</div>
                 <div className="grid self-center transition ease-in-out duration-1000 transform">
@@ -61,15 +61,15 @@ const NavBar=()=>{
                 </div>
             </div>
             <div className={`absolute top-16 grid grid-flow-row ${isShowed ? 'block' : 'hidden'}`}>
-                <div className="grid grid-flow-col" onClick={()=>setNewLanguage('ES')}>
+                <div className="grid grid-flow-col cursor-pointer" onClick={()=>setNewLanguage('ES')}>
                     <div className="grid self-center "><img src="../../Images/flag_ES.png" alt="flag"/></div>
                     <div className="px-2">- ES</div>
                 </div>
-                <div className="grid grid-flow-col" onClick={()=>setNewLanguage('EN')}>
+                <div className="grid grid-flow-col cursor-pointer" onClick={()=>setNewLanguage('EN')}>
                     <div className="grid self-center "><img src="../../Images/flag_EN.png" alt="flag"/></div>
                     <div className="px-2">- EN</div>
                 </div>
-                <div className="grid grid-flow-col"  onClick={()=>setNewLanguage('PT')}>
+                <div className="grid grid-flow-col cursor-pointer"  onClick={()=>setNewLanguage('PT')}>
                     <div className="grid self-center "><img src="../../Images/flag_PT.png" alt="flag"/></div>
                     <div className="px-2">- PT</div>
                 </div>
