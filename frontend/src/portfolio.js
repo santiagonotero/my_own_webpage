@@ -12,7 +12,7 @@ export function Portfolio(){
       }
     
     const classOuterCardSquare = 'flex flex-row w-8/12 w-full border border-black rounded-lg my-4 shadow-xl justify-end xsm:w-11/12 ';
-    const classPictureArea = 'flex w-1/4 items-center justify-center md:hidden sm:hidden xsm:hidden';
+    const classPictureArea = 'flex w-1/4 mx-2.5 items-center justify-center md:hidden sm:hidden xsm:hidden';
     const classSmallPictureArea = 'flex w-full my-6 items-center justify-center 2xl:hidden xl:hidden lg:hidden mg:hidden';
     const classTextArea = 'flex flex-col w-3/4 md:w-full sm:w-full xsm:w-full';
     const classCardCaption = 'self-center px-6';
@@ -33,12 +33,16 @@ export function Portfolio(){
                     {/* Esta página web */}
                         <div className={classOuterCardSquare} >
                             <div className={classPictureArea}>
-                                <img src="../thisWebpage.png" alt="This page" />
+                                <a href="https://santiagootero.online">
+                                    <img src="../thisWebpage.png" alt="This page" />
+                                </a>
                             </div>
                             <div className={classTextArea}>
                                 <div className={classCardCaption}><h2>{t('portfolio_caption1')}</h2></div>
                                 <div className={classSmallPictureArea}>
-                                    <img src="../thisWebpage.png" alt="This page" />
+                                    <a href="https://santiagootero.online">
+                                        <img src="../thisWebpage.png" alt="This page" />
+                                    </a>
                                 </div>
                                 <div className={classCardAbstract}><p>{t('portfolio_text11')}</p></div>
                                 <div className={classCardAbstract}><p>{t('portfolio_text12')}</p></div>
@@ -55,7 +59,7 @@ export function Portfolio(){
                                         <li className={classLabelFeatures}><h3>NODEMAILER</h3></li>
                                     </ul>
                                 </div>
-                                <div className={classLowerText}><p>{t('portfolio_text13')} <a href='https://github.com/santiagonotero/my_own_webpage' className='text-violet-700' target='_blank' rel='noreferrer' >{t('portfolio_text14')}</a></p></div>
+                                <div className={classLowerText}><p>{t('portfolio_text13')} <a href='https://github.com/santiagonotero/my_own_webpage/tree/version1.2' className='text-violet-700' target='_blank' rel='noreferrer' >{t('portfolio_text14')}</a></p></div>
                             </div>
                         </div>
                     </FadeInSection>
@@ -63,11 +67,17 @@ export function Portfolio(){
                     {/* Dojo de karate virtual */}
                         <div className={classOuterCardSquare} >
                             <div className={classPictureArea}>
-                                <p>Imagen</p>
+                                <a href="https://sn-karatedojo.netlify.app">
+                                    <img src="../karatedojo.png" alt="karate dojo" />
+                                </a>
                             </div>
                             <div className={classTextArea}>
                                 <div className={classCardCaption}><h2>{t('portfolio_caption2')}</h2></div>
-                                <div className={classSmallPictureArea}>Imagen</div>
+                                <div className={classSmallPictureArea}>
+                                <a href="https://sn-karatedojo.netlify.app">
+                                    <img src="../karatedojo.png" alt="karate dojo" />
+                                </a>
+                                </div>
                                 <div className={classCardAbstract}><p>{t('portfolio_text21')}</p></div>
                                 <div className={classCardAbstract}><p>{t('portfolio_text22')}</p></div>
                                 <div className={classLabelContainer}>
@@ -86,11 +96,17 @@ export function Portfolio(){
                     {/* Empresa de paquetería virtual */}
                         <div className={classOuterCardSquare} >
                             <div className={classPictureArea}>
-                                <p>Imagen</p>
+                                <a href="https://sn-fakeparcelcomp.netlify.app/">
+                                    <img src="../encomiendas.png" alt="encomiendas" />
+                                </a>
                             </div>
                             <div className={classTextArea}>
                                 <div className={classCardCaption}><h2>{t('portfolio_caption3')}</h2></div>
-                                <div className={classSmallPictureArea}>Imagen</div>
+                                <div className={classSmallPictureArea}>
+                                <a href="https://sn-fakeparcelcomp.netlify.app/">
+                                    <img src="../encomiendas.png" alt="encomiendas" />
+                                </a>
+                                </div>
                                 <div className={classCardAbstract}><p>{t('portfolio_text31')}</p></div>
                                 <div className={classCardAbstract}><p>{t('portfolio_text32')}</p></div>
                                 <div className={classLabelContainer}>
@@ -109,11 +125,17 @@ export function Portfolio(){
                     {/* Sitio de E-commerce hecho con React y Firebase */}
                         <div className={classOuterCardSquare} >
                             <div className={classPictureArea}>
-                                <p>Imagen</p>
+                            <a href="https://reactecommerce.santiagootero.online">
+                                <img src="../ecommerceReact.png" alt="ecommReact" />
+                            </a>
                             </div>
                             <div className={classTextArea}>
                                 <div className={classCardCaption}><h2>{t('portfolio_caption4')}</h2></div>
-                                <div className={classSmallPictureArea}>Imagen</div>
+                                <div className={classSmallPictureArea}>
+                                    <a href="https://santiagootero.online/samples/reactecommerce">
+                                        <p>Imagen</p>
+                                    </a>
+                                </div>
                                 <div className={classCardAbstract}><p>{t('portfolio_text41')}</p></div>
                                 <div className={classCardAbstract}><p>{t('portfolio_text42')}</p></div>
                                 <div className={classLabelContainer}>
